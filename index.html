@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090916" />
+  <meta name="description" content="DIALVERSE — one number, endless stories. Interactive telephone-style stories and real-world adventure previews." />
+  <title>DIALVERSE — One number. Infinite stories.</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./src/styles.css" />
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div><div class="ambient ambient-b" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a href="#home" class="brand" data-route="home" aria-label="Dialverse home"><span class="brand-mark" aria-hidden="true">◉</span><span>DIAL<span class="brand-muted">VERSE</span></span><span class="brand-mini">α</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#home" data-route="home" class="nav-link active">Discover</a>
+        <a href="#hotline" data-route="hotline" class="nav-link">The hotline</a>
+        <a href="#field" data-route="field" class="nav-link">Field missions</a>
+        <a href="#journal" data-route="journal" class="nav-link">My journey</a>
+      </nav>
+      <div class="nav-right"><span class="status-dot"></span><span class="preview-status">EARLY ACCESS PREVIEW</span><button class="nav-cta" data-route="hotline">Enter the verse <span aria-hidden="true">↗</span></button></div>
+    </div>
+  </header>
+  <div class="disclosure-strip"><span class="dot-purple">✦</span> INTERACTIVE PROTOTYPE — Browser-based scripted stories. No real AI telephone calls, payments or GPS verification are active. <span class="dot-purple">✦</span></div>
+
+  <main id="main-content">
+    <section class="view active" id="view-home" aria-labelledby="home-title">
+      <div class="hero shell">
+        <div class="hero-copy"><div class="eyebrow"><span class="eyebrow-line"></span> A NEW KIND OF ENTERTAINMENT <span class="mono">/ 001</span></div>
+          <h1 id="home-title">Reality has<br/><em>another line.</em></h1>
+          <p class="lead">Call into strange stories. Challenge unpredictable characters. Step into real-world mysteries. One universe, and you're at the center of it.</p>
+          <div class="hero-actions"><button class="btn btn-primary" data-route="hotline">Try the hotline <span>↗</span></button><button class="btn btn-outline" data-route="field">Explore field missions <span>↗</span></button></div>
+          <div class="hero-fine"><span class="green-light"></span> Free interactive preview <span class="bullet">•</span> No account required <span class="bullet">•</span> Nothing charged</div>
+        </div>
+        <div class="hero-art" aria-label="Decorative cosmic telephone portal">
+          <div class="orbit orbit-1"></div><div class="orbit orbit-2"></div><div class="orbit orbit-3"></div>
+          <div class="orbit-orb orb-one"></div><div class="orbit-orb orb-two"></div>
+          <div class="portal-disc"><div class="portal-disc-inner"><div class="portal-glyph">◉</div><div class="portal-code">SIGNAL CONNECTED</div></div></div>
+          <div class="float-label float-top"><span class="sound-wave">▂▅▃▇▂▆</span> INCOMING FROM THE UNKNOWN</div>
+          <div class="float-label float-bottom"><span class="fl-dot"></span> THE OTHER SIDE IS LISTENING</div>
+          <div class="art-coordinate">DIAL://MULTIVERSE/001<br/>NO FIXED DESTINATION</div>
+        </div>
+      </div>
+      <section class="section-shell shell" aria-labelledby="experiences-title">
+        <div class="section-top"><div><div class="kicker">THE EXPERIENCE COLLECTION</div><h2 id="experiences-title">Choose your <em>frequency.</em></h2></div><p>Three strange voices. Three different adventures. Every choice moves the story.</p></div>
+        <div class="experience-grid">
+          <article class="experience-card oracle-card"><div class="card-art oracle-art"><div class="symbol-mark">✧</div><span class="card-number">01 / THE UNKNOWN</span></div><div class="card-body"><div class="type-line"><span class="pill">MYSTICAL</span><span>05–07 MIN PREVIEW</span></div><h3>The Oracle</h3><p>Ask the universe a question. Three doors will open. Which one will you choose?</p><button class="card-action" data-start="oracle">Enter the chamber <span>↗</span></button></div></article>
+          <article class="experience-card roast-card"><div class="card-art roast-art"><div class="symbol-mark">✳</div><span class="card-number">02 / NO FILTER</span></div><div class="card-body"><div class="type-line"><span class="pill">COMEDY</span><span>04–06 MIN PREVIEW</span></div><h3>The Roast Line</h3><p>Step into the spotlight. Choose your level. See if your ego survives the show.</p><button class="card-action" data-start="roast">Take the stage <span>↗</span></button></div></article>
+          <article class="experience-card mystery-card"><div class="card-art mystery-art"><div class="symbol-mark">⌖</div><span class="card-number">03 / UNSOLVED</span></div><div class="card-body"><div class="type-line"><span class="pill">MYSTERY</span><span>06–08 MIN PREVIEW</span></div><h3>The Mystery Line</h3><p>A stranger disappeared. You have one phone call and a city full of secrets.</p><button class="card-action" data-start="mystery">Open the case <span>↗</span></button></div></article>
+        </div>
+      </section>
+      <section class="feature-banner shell"><div class="feature-graphic"><div class="graphic-path"><span>◎</span><span>✧</span><span>⌖</span><span>◎</span></div></div><div class="feature-info"><div class="kicker">THE REAL WORLD IS THE NEXT LEVEL</div><h2>Don't just hear the story. <em>Walk into it.</em></h2><p>Real landmarks. Fictional mysteries. Checkpoints, choices, clues, and a guide who's with you every step of the adventure.</p><button class="btn btn-primary" data-route="field">Preview your first mission <span>↗</span></button></div></section>
+      <section class="how-it-works shell"><div class="kicker">THE CONCEPT</div><h2>Simple to enter. <em>Hard to forget.</em></h2><div class="steps-grid"><div><span class="step-num">01</span><h3>Pick a world</h3><p>Choose mysticism, comedy, detective noir, or an outdoor mission.</p></div><div><span class="step-num">02</span><h3>Make your choices</h3><p>Characters respond to your decisions, unlocking unique scenes and endings.</p></div><div><span class="step-num">03</span><h3>Return for more</h3><p>Your progress stays saved in this browser. Future versions add real live AI calls.</p></div></div></section>
+    </section>
+
+    <section class="view shell inner-page" id="view-hotline" aria-labelledby="hotline-title">
+      <div class="subpage-head"><div class="kicker">DIALVERSE / SIGNAL STATION</div><h1 id="hotline-title">The <em>hotline.</em></h1><p>Choose a character, make decisions, and hear the story performed out loud. This first build uses authored interactive dialogue, not a connected AI model.</p></div>
+      <div class="play-layout">
+        <aside class="channel-panel"><div class="panel-heading">CHOOSE A CHANNEL <span>03 AVAILABLE</span></div><button class="channel-btn selected" data-character="oracle"><span class="channel-symbol oracle-symbol">✧</span><span><strong>The Oracle</strong><small>Fate · Mystery</small></span><span class="channel-arrow">↗</span></button><button class="channel-btn" data-character="roast"><span class="channel-symbol roast-symbol">✳</span><span><strong>The Roast Line</strong><small>Comedy · Challenges</small></span><span class="channel-arrow">↗</span></button><button class="channel-btn" data-character="mystery"><span class="channel-symbol mystery-symbol">⌖</span><span><strong>The Mystery Line</strong><small>Detective · Adventure</small></span><span class="channel-arrow">↗</span></button><div class="panel-callout"><span class="tiny-label">NOTE</span><p>Voice playback is powered by your browser. You won't dial a number or be charged in this version.</p></div></aside>
+        <div class="terminal"><div class="terminal-top"><div class="call-avatar" id="call-avatar">✧</div><div class="terminal-identity"><span class="tiny-label">INTERACTIVE PREVIEW / SCRIPTED</span><strong id="call-name">The Oracle</strong><span id="call-subtitle">Your future is on the line</span></div><span class="terminal-led">● READY</span></div><div class="signal-bar"><div class="wave-bars" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><span id="call-status">SIGNAL IDLE</span><span class="signal-time" id="call-elapsed">00:00</span></div><div class="transcript" id="transcript" role="log" aria-live="polite" aria-relevant="additions"><div class="empty-transcript"><div>◉</div><h3>A story is waiting.</h3><p>Press “Begin experience” to connect to the demo.</p></div></div><div class="choice-area" id="choice-area"><button class="btn btn-primary begin-button" id="begin-call">Begin experience <span>↗</span></button></div><div class="terminal-footer"><button class="utility-btn" id="voice-toggle" aria-pressed="false"><span id="voice-icon">◌</span> Voice off</button><button class="utility-btn" id="call-restart">↻ Restart</button><span class="footer-note">FICTIONAL ENTERTAINMENT · FREE PREVIEW</span></div></div>
+      </div>
+    </section>
+
+    <section class="view shell inner-page" id="view-field" aria-labelledby="field-title">
+      <div class="subpage-head"><div class="kicker">DIALVERSE / OUTSIDE THE SIGNAL</div><h1 id="field-title">The city is <em>the game.</em></h1><p>A location-inspired mystery with real destinations, fictional characters, and decisions that change the outcome. Prototype mission: historic downtown Lincoln, Illinois.</p></div>
+      <div class="field-banner"><div><span class="pill dark-pill">FIELD MISSION / PILOT 001</span><h2>The Echoes of Lincoln</h2><p>A strange transmission has appeared at four familiar places. Follow the clues before the signal disappears.</p><div class="field-meta"><span>◷ SELF-PACED</span><span>⌖ 4 CANDIDATE STOPS</span><span>◉ DEMO MODE</span></div><button class="btn btn-primary" id="field-start">Start free mission <span>↗</span></button></div><div class="field-emblem">⌖<span>LINCOLN, IL</span></div></div>
+      <div class="field-grid"><div class="mission-board"><div class="panel-heading">MISSION CONTROL <span id="field-progress-label">00 / 04 COMPLETED</span></div><div class="mission-warning"><strong>Safety first:</strong> Daylight recommended. Public exteriors only. Stay on sidewalks and legal crossings; never approach railway tracks. Locations are candidates pending an on-foot safety review. This demo does not verify GPS or grant access to any property.</div><div id="field-current" class="field-current"></div><div class="checkpoint-list" id="checkpoint-list"></div></div><aside class="field-sidebar"><div class="side-panel"><div class="panel-heading">YOUR FIELD EQUIPMENT</div><div class="equipment-row"><span>⌖</span><div><strong>Location check</strong><small>Optional device coordinates stay in your browser</small></div></div><button class="btn btn-outline full" id="check-gps">Check my GPS</button><p id="gps-status" class="small-muted" role="status">No location requested.</p></div><div class="side-panel"><div class="panel-heading">FUTURE CHAPTER PRICING</div><div class="price-row"><span>Intro chapter</span><strong>Free</strong></div><div class="price-row"><span>Chapters 1–2</span><strong>$4.99</strong></div><div class="price-row"><span>Final chapters</span><strong>$3.98</strong></div><p class="small-muted">Concept prices only. Checkout is not active. All prototype checkpoints are freely playable.</p></div><div class="side-panel"><div class="panel-heading">IMPORTANT</div><p class="small-muted">The haunting and characters are invented. The real landmarks are not represented as haunted or affiliated with Dialverse. Do not go to a location at night or during restricted hours because a story suggests it.</p></div></aside></div>
+    </section>
+
+    <section class="view shell inner-page" id="view-journal" aria-labelledby="journal-title"><div class="subpage-head"><div class="kicker">DIALVERSE / PERSONAL ARCHIVE</div><h1 id="journal-title">Your <em>journey.</em></h1><p>Prototype progress is saved in this browser only. No account, cloud storage, or hidden recording.</p></div><div class="journal-grid"><div class="stat-panel"><span class="tiny-label">STORIES COMPLETED</span><strong id="stat-stories">0</strong><small>Across the three hotline channels</small></div><div class="stat-panel"><span class="tiny-label">FIELD CHECKPOINTS</span><strong id="stat-checkpoints">0/4</strong><small>Lincoln pilot mission</small></div><div class="stat-panel"><span class="tiny-label">DISCOVERED ENDINGS</span><strong id="stat-endings">0</strong><small>Unique outcomes unlocked</small></div></div><div class="journal-bottom"><div class="journal-card"><div class="panel-heading">YOUR DISCOVERIES</div><div id="discoveries" class="discovery-list"></div></div><div class="journal-card"><div class="panel-heading">YOUR DATA</div><p>Dialverse Preview saves story choices and achievements in local browser storage. No phone, email, payment details, or precise GPS coordinates are saved.</p><div class="journal-actions"><button class="btn btn-outline" id="export-progress">Export progress JSON</button><button class="btn btn-danger" id="clear-progress">Delete local progress</button></div><p class="small-muted">Clearing browser site data also deletes the progress. Your results will not sync between devices.</p></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><div class="footer-brand">◉ DIALVERSE <span>© 2026 DIALVERSE PROTOTYPE</span></div><div>FICTIONAL EXPERIENCES. REAL CURIOSITY.</div><div class="footer-links"><button data-route="home">Discover</button><button data-route="field">Field missions</button><a href="https://www.lincolnil.gov/history-historic-downtown" target="_blank" rel="noopener noreferrer">Location sources ↗</a></div></div></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
